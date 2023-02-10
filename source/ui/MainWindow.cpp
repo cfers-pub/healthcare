@@ -14,4 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 	// SettingWidget
 	ui.tabWidget->addTab(new SettingWidget, style()->standardIcon(QStyle::SP_CommandLink), tr(u8"设置"));
+
+	// backGround
+	setStyleSheet("MainWindow:{background::}");
 }

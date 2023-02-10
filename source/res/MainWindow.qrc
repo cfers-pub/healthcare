@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/7001_coffee_cup_food_java_icon.png</file>
+        <file>png/background.jpg</file>
+    </qresource>
+</RCC>
