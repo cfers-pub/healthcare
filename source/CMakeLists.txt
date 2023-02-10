@@ -83,7 +83,7 @@ set_property(TARGET ${root_dir_name_} PROPERTY AUTORCC ON)
 
 #find qt5
   #find qt5.9.7
-  find_package(Qt5 5.9.7 COMPONENTS Core Gui Charts REQUIRED)
+  find_package(Qt5 COMPONENTS Core Gui Charts REQUIRED)
   #qt5_wrap_ui(ui_FILES ${ui_files_})
   #qt5_add_resources(qrc_FILES ${qrc_files_})
 
